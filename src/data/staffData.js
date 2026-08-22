@@ -1,0 +1,53 @@
+export const staffData = {
+  title: "Directory & Roles",
+  description:
+    "Manage employee profiles, team assignments, permissions, and status across departments.",
+  stats: [
+    { label: "Total Staff", value: "48", detail: "+3 this month" },
+    { label: "Active Now", value: "32", detail: "66% active rate" },
+    { label: "On Leave", value: "4", detail: "2 returning tomorrow" },
+    { label: "Contractors", value: "12", detail: "External accounts" },
+  ],
+  members: [
+    {
+      id: "STF-001",
+      name: "Dr. Aris Thorne",
+      email: "a.thorne@org.com",
+      role: "Lead Architect",
+      department: "Engineering",
+      status: "Active",
+      avatar: "/avatars/aris.png",
+      initials: "AT",
+    },
+    {
+      id: "STF-002",
+      name: "Elena Rostova",
+      email: "e.rostova@org.com",
+      role: "Senior Operations Manager",
+      department: "Operations",
+      status: "Active",
+      avatar: "/avatars/elena.png",
+      initials: "ER",
+    },
+    {
+      id: "STF-003",
+      name: "Marcus Vance",
+      email: "m.vance@org.com",
+      role: "Product Strategist",
+      department: "Product",
+      status: "On Leave",
+      avatar: "/avatars/marcus.png",
+      initials: "MV",
+    },
+    {
+      id: "STF-004",
+      name: "Sophia Chen",
+      email: "s.chen@org.com",
+      role: "UI/UX Designer",
+      department: "Design",
+      status: "Active",
+      avatar: "/avatars/sophia.png",
+      initials: "SC",
+    },
+  ],
+};
